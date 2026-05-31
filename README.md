@@ -1,4 +1,4 @@
-## 🟦 Project Background
+## Project Background
 
 MavenTech is a company that specializes in selling computer hardware to large businesses. The organization recently implemented a CRM system to track sales opportunities across its pipeline; however, it lacks visibility into the data outside of the platform, making it difficult to evaluate sales performance and identify areas for improvement.
 
@@ -28,13 +28,13 @@ An interactive Tableau Dashboard can be found [here](https://public.tableau.com/
 
 ---
 
-## 🟦 Data Structure & Initial Checks
+## Data Structure & Initial Checks
 
 MavenTech's database structure as seen below consists of four tables: sales_pipeline, sales_team, account, and product, with a total row count of 8,800 records. Each record represents a single deal (opportunity) with associated attributes describing its progression, ownership, and outcome.
 
 <img src="images/ERT.png" alt="ED1" width="700" height="450"/>
 
-## 🟦 Data Cleaning (Excel)
+## Data Cleaning (Excel)
 
 Before analysis, data quality checks were conducted to ensure accuracy and build familiarity with the dataset. Key observations, data issues, and inconsistencies were documented in an issue log, using excel pivot tables, while potential outliers and anomalies were identified and flagged for further review.
 
@@ -45,7 +45,7 @@ Excel was then used to clean and prepare the dataset for analysis in SQL. This i
 
 <img src="images/Flagged_Row.png" alt="Flagged" width="450" height="350"/>
 
-## 🟩 Executive Summary
+## Executive Summary
 
 Below is the Manager & Sales Pipeline Efficiency page from the Tableau Visualization and more examples will be included throughout the report. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
 
@@ -67,7 +67,7 @@ Addressing these gaps represents a significant opportunity to unlock near-term r
 
 ---
 
-## 🟨 Sales Trends & Revenue Momentum
+## Sales Trends & Revenue Momentum
 
 Monthly revenue trends reveal a pattern of **inconsistent performance rather than steady growth**, with total annual revenue of approximately **$9.5M**. Average monthly revenue is estimated at **~$790K**, though actual performance varies significantly due to pronounced peaks and troughs throughout the year.
 
@@ -80,7 +80,7 @@ Revenue generation is structurally **volatile and timing-dependent**, with perfo
 
 
 
-## 🟨 Regional Performance Insights (SQL)
+## Regional Performance Insights (SQL)
 
 Revenue distribution across regions is relatively balanced, with the **West leading at $3.56M**, followed by the **Central region at $3.32M**, and the **East at $3.08M**.
 
@@ -116,7 +116,7 @@ Aggregates revenue and deal metrics by region to compare geographic performance 
 
 
 
-## 🟨 Product Overview
+## Product Overview
 
 Below is an overview of Product Performance from the Tableau Visualisations. The entire interactive Tableau Dashboard can be found [here](https://public.tableau.com/app/profile/ajin.paija/viz/SalesPerformancePricingAnalytics/Story1)
 
@@ -124,7 +124,7 @@ Below is an overview of Product Performance from the Tableau Visualisations. The
 
 
 
-## 🟨 Product Performance & Revenue Concentration (Tableau)
+## Product Performance & Revenue Concentration (Tableau)
 
 Revenue is heavily concentrated in three products:
 
@@ -141,7 +141,7 @@ Revenue concentration reflects **strong top-product performance but weak portfol
 
 
 
-## 🟧 Revenue Leakage & Conversion Gaps (SQL)
+## Revenue Leakage & Conversion Gaps (SQL)
 
 Despite strong revenue generation, the business is losing approximately **$5.9M in potential revenue**, largely from its highest-performing products:
 
@@ -175,7 +175,7 @@ Quantifies missed revenue by product to identify where the largest financial los
 
 </details>
 
-## 🟧 Pricing Strategy & Discounting Behavior (SQL)
+## Pricing Strategy & Discounting Behavior (SQL)
 
 Pricing analysis reveals clear segmentation across product tiers:
 
@@ -190,7 +190,7 @@ This suggests inconsistent pricing discipline, where discounting is selectively 
 #### **Business Insights:**
 While pricing power exists in premium segments, **inconsistent discounting practices elsewhere indicate reliance on price reductions to close deals**, potentially eroding margins and masking underlying sales execution gaps.
 
-## 🟥 Agent Sales Performance Score (SQL)
+## Agent Sales Performance Score (SQL)
 
 <img src="images/AgentScore.png" alt="Score" width="750" height="750"/>
 
@@ -273,7 +273,7 @@ Builds a normalized composite score combining win rate, deal volume, and revenue
 
 </details>
 
-## 🟩 Strategic Recommendations & Actions
+## Strategic Recommendations & Actions
 
 The following recommendations are prioritized based on potential revenue impact and operational importance.
 
